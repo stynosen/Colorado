@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Bird : MonoBehaviour 
 {
+    /*
     public bool m_Done = true;
     public GameObject m_Cherry;
     public bool m_SpawnCherry;
@@ -83,5 +84,5 @@ public class Bird : MonoBehaviour
     {
         m_Enabled = overload;
         GetComponent<SpriteRenderer>().enabled = overload;
-    }
+    }*/
 }
