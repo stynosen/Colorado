@@ -4,18 +4,25 @@
 Unity/Temp/
 Unity/Library/
 Unity/Output/
+Appelboom/Temp/
+Appelboom/Library/
+Appelboom/Output/
 
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
 # ===================================== #
 Unity/ExportedObj/
 Unity/obj/
+Appelboom/ExportedObj/
+Appelboom/obj/
 *.svd
 *.userprefs
 Unity/*.csproj
+Appelboom/*.csproj
 *.pidb
 *.suo
 Unity/*.sln
+Appelboom/*.sln
 *.user
 *.unityproj
 *.booproj

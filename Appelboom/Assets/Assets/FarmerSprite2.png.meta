@@ -1,0 +1,107 @@
+fileFormatVersion: 2
+guid: 8eef3c27e65c702469ad166711e08538
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: FarmerSprite2_0
+    21300002: FarmerSprite2_1
+    21300004: FarmerSprite2_2
+    21300006: FarmerSprite2_3
+    21300008: FarmerSprite2_4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: FarmerSprite2_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 258
+        width: 89
+        height: 142
+      alignment: 9
+      pivot: {x: .682108164, y: .888069928}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FarmerSprite2_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 258
+        width: 87
+        height: 137
+      alignment: 9
+      pivot: {x: .639720857, y: .931809008}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FarmerSprite2_2
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 9
+        width: 338
+        height: 437
+      alignment: 9
+      pivot: {x: .330000013, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FarmerSprite2_3
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 9
+        width: 338
+        height: 437
+      alignment: 9
+      pivot: {x: .330000013, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FarmerSprite2_4
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 9
+        width: 338
+        height: 437
+      alignment: 9
+      pivot: {x: .330000013, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
