@@ -60,15 +60,7 @@ public class Cherry : MonoBehaviour
     {
         if(col.gameObject.tag == "Hero")
         {
-            if(!m_Bad)
-            {
-                int score = 1;
-                GameObject.FindGameObjectWithTag("Score").GetComponent<Score>().AddScore(score);
-            }
-            else
-            {
-                col.gameObject.GetComponent<Hero>().MakeSick();
-            }
+            col.gameObject.GetComponent<Hero>().GrabCherry(m_Bad);
         }
 
         if(col.gameObject.tag != "Cherry")

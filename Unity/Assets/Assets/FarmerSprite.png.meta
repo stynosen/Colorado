@@ -6,6 +6,7 @@ TextureImporter:
     21300002: FarmerSprite_1
     21300004: FarmerSprite_2
     21300006: FarmerSprite_3
+    21300008: FarmerSprite_4
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -54,40 +55,50 @@ TextureImporter:
     - name: FarmerSprite_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 259
-        width: 87
-        height: 140
+        x: 14
+        y: 258
+        width: 89
+        height: 142
       alignment: 9
-      pivot: {x: .697151542, y: .904080868}
+      pivot: {x: .673002779, y: .865242124}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: FarmerSprite_1
       rect:
         serializedVersion: 2
-        x: 128
-        y: 259
-        width: 85
-        height: 136
+        x: 127
+        y: 258
+        width: 87
+        height: 137
       alignment: 9
-      pivot: {x: .653082252, y: .948067188}
-      border: {x: 0, y: 0, z: 0, w: 4}
+      pivot: {x: .649035573, y: .919978678}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: FarmerSprite_2
       rect:
         serializedVersion: 2
-        x: 276
-        y: 10
-        width: 336
-        height: 435
+        x: 275
+        y: 9
+        width: 338
+        height: 437
       alignment: 9
       pivot: {x: .330000013, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: FarmerSprite_3
       rect:
         serializedVersion: 2
-        x: 656
-        y: 10
-        width: 336
-        height: 435
+        x: 654
+        y: 9
+        width: 338
+        height: 437
+      alignment: 9
+      pivot: {x: .330000013, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FarmerSprite_4
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 9
+        width: 338
+        height: 437
       alignment: 9
       pivot: {x: .330000013, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
