@@ -7,7 +7,7 @@ public class CherryDropperManager : MonoBehaviour
     public GameObject Cherry;
     public bool OverloadMode = false;
     public bool EnjoymentMode = false;
-    public bool IsPlayingBool = false;
+    public static bool IsPlayingBool = false;
 
     public static bool? Overload = null;
     public static bool? Enjoyment = null;
