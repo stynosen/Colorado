@@ -29,7 +29,7 @@ public class Hero : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if (CherryDropperManager.IsPlaying)
+        if (CherryDropperManager.IsPlaying())
         {
             float axis = GetAxis();
             if (axis != 0)
@@ -55,10 +55,10 @@ public class Hero : MonoBehaviour
             newpos.x += m_CurrentSpeed * Time.deltaTime;
             transform.position = newpos;
         }
-        /*else
+        else
         {
             HandleMovement(0);
-        }*/
+        }
 
         if (m_SickTimer > 0)
         {

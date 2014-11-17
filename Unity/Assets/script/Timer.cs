@@ -31,16 +31,4 @@ public class Timer : MonoBehaviour
     {
         return m_TimeLeft;
     }
-
-    public void OnGUI()
-    {
-        if (GUI.Button(new Rect(10,10,200,200),"Goto portfolio"))
-        {
-            Application.ExternalCall("document.location='http://www.stijndoyen.com';");
-        }
-        if (GUI.Button(new Rect(220, 10, 200, 200), "Goto google"))
-        {
-            Application.ExternalCall("GotoPage","http://www.google.be");
-        }
-    }
 }
