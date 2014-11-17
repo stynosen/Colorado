@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class Cherry : MonoBehaviour 
+public class Cherry : MonoBehaviour
 {
     public Sprite m_CherrySprite;
     public List<Sprite> m_BadCherrySprites;
@@ -17,8 +17,8 @@ public class Cherry : MonoBehaviour
 
     GameObject m_CherryChild;
 
-	// Use this for initialization
-	void Start ()
+    // Use this for initialization
+    void Start()
     {
         m_CherryChild = transform.GetChild(0).gameObject;
         GetComponent<Rigidbody2D>().gravityScale = 0;
@@ -26,12 +26,12 @@ public class Cherry : MonoBehaviour
         m_CherryChild.transform.localScale = Vector3.zero;
 
         m_FallTimer = m_DropTime;
-	}
-	
-	// Update is called once per frame
-	void Update () 
+    }
+
+    // Update is called once per frame
+    void Update()
     {
-	    if(m_FallTimer > 0)
+        if (m_FallTimer > 0)
         {
             m_FallTimer -= Time.deltaTime;
             float temp = (m_DropTime - m_FallTimer) / m_DropTime;
@@ -43,7 +43,7 @@ public class Cherry : MonoBehaviour
             m_CurrentRockAmount = Mathf.Lerp(m_CurrentRockAmount, 0.2f, Time.deltaTime * 5);
         }
 
-        if( m_FallTimer < 0)
+        if (m_FallTimer < 0)
         {
             m_CherryChild.transform.localScale = new Vector3(m_targetScale, m_targetScale, m_targetScale);
             m_FallTimer = 0;
@@ -54,16 +54,16 @@ public class Cherry : MonoBehaviour
         // Rocking
         if (CherryDropperManager.Overload.HasValue && (bool)CherryDropperManager.Overload)
             m_CherryChild.transform.localRotation = Quaternion.AngleAxis(Mathf.Sin(Time.time * m_RockSpeed) * m_MaxRock * m_CurrentRockAmount, Vector3.forward);
-	}
+    }
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if(col.gameObject.tag == "Hero")
+        if (col.gameObject.tag == "Hero")
         {
             col.gameObject.GetComponent<Hero>().GrabCherry(m_Bad);
         }
 
-        if(col.gameObject.tag != "Cherry")
+        if (col.gameObject.tag != "Cherry")
             Destroy(gameObject);
     }
 
