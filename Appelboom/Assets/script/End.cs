@@ -14,7 +14,7 @@ public class End : MonoBehaviour
     {
         if (!playing && Timer.m_Finished)
         {
-            m_VisibleTime = 2.0f;
+            m_VisibleTime = 3.0f;
             transform.GetChild(0).gameObject.SetActive(true);
         }
     }
