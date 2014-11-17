@@ -371,6 +371,7 @@ GameObject:
   - 4: {fileID: 144141026}
   - 212: {fileID: 144141025}
   - 95: {fileID: 144141027}
+  - 114: {fileID: 144141024}
   m_Layer: 0
   m_Name: rightBird
   m_TagString: Untagged
@@ -378,6 +379,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &144141024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 144141023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04961066d4aa1d747b9320a71be724c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Done: 1
+  m_Cherry: {fileID: 100000, guid: 93ac00ac6dbe9634ba0cf871191b19f3, type: 2}
+  m_SpawnCherry: 0
+  m_Tweet: {fileID: 8300000, guid: 66e5c713ba4f75b44bfd691a4a4214fd, type: 3}
 --- !u!212 &144141025
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1347,6 +1363,7 @@ GameObject:
   - 4: {fileID: 1374875227}
   - 212: {fileID: 1374875226}
   - 95: {fileID: 1374875228}
+  - 114: {fileID: 1374875225}
   m_Layer: 0
   m_Name: leftBird
   m_TagString: Untagged
@@ -1354,6 +1371,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1374875225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1374875224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04961066d4aa1d747b9320a71be724c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Done: 1
+  m_Cherry: {fileID: 100000, guid: 93ac00ac6dbe9634ba0cf871191b19f3, type: 2}
+  m_SpawnCherry: 0
+  m_Tweet: {fileID: 8300000, guid: 66e5c713ba4f75b44bfd691a4a4214fd, type: 3}
 --- !u!212 &1374875226
 SpriteRenderer:
   m_ObjectHideFlags: 0

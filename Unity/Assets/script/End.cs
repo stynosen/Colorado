@@ -10,7 +10,7 @@ public class End : MonoBehaviour
         CherryDropperManager.OnPlayingChanged += OnPlayingChange;
 	}
 
-    private void OnPlayingChange(bool playing)
+    public void OnPlayingChange(bool playing)
     {
         if (!playing && Timer.m_Finished)
         {

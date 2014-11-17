@@ -3,7 +3,6 @@ using System.Collections;
 
 public class Bird : MonoBehaviour 
 {
-    /*
     public bool m_Done = true;
     public GameObject m_Cherry;
     public bool m_SpawnCherry;
@@ -14,7 +13,7 @@ public class Bird : MonoBehaviour
     private GameObject m_MyCherry = null;
     private float m_SoundDelay = 0.5f;
 
-    private bool m_Enabled = false;
+    private bool m_Enabled = true;
 	// Use this for initialization
 	void Start () 
     {
@@ -80,9 +79,9 @@ public class Bird : MonoBehaviour
         GetComponent<Animator>().enabled = enabled;
     }
 
-    void OverloadChanged(bool overload)
+    public void OverloadChanged(bool overload)
     {
         m_Enabled = overload;
         GetComponent<SpriteRenderer>().enabled = overload;
-    }*/
+    }
 }
