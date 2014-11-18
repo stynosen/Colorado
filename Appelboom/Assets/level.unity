@@ -349,6 +349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Score: 0
+  m_Cheer: {fileID: 8300000, guid: 1ea6b6f9d5654c84b95fa328b92073b9, type: 3}
 --- !u!1 &61502567
 GameObject:
   m_ObjectHideFlags: 0
@@ -1944,7 +1945,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 191c4a169e6f1a646928f05ad3853312, type: 2}
       propertyPath: OverloadMode
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 191c4a169e6f1a646928f05ad3853312, type: 2}
